@@ -8,3 +8,10 @@ if (x % 2 == 0) {
 } else {
     alert("Data Bukan Angka");
 }
+
+if (confirm("Apakah Anda Manusia ?")) {
+    location = "http://google.com";
+} else {
+    alert("Anda Dipenjara");
+
+}
